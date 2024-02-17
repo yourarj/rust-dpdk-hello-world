@@ -1,0 +1,15 @@
+[package]
+name = "rust-dpdk-hello-world"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# rust dpdk from github
+rust-dpdk = { git = "https://github.com/ANLAB-KAIST/rust-dpdk.git", package = "rust-dpdk-sys" }
+
+# ⬆️ OR ⬇️
+
+# local flavour of rust-dpdk (in case we want to troubleshoot rust-dpdk pkg)
+# rust-dpdk = { path = "../rust-dpdk/dpdk-sys", package = "rust-dpdk-sys" }
