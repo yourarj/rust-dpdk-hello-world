@@ -7,6 +7,8 @@ I've tried to cover from all the basics
 ## Dev Environment
 [If you have DPDK Compliant NIC you can skip this]
 
+A virtual box VM with following attributes was used to build and run the example due NIC dep.
+
 - `Ubuntu 22.04`
 - `4 vcpu`
 - `8gb RAM`
